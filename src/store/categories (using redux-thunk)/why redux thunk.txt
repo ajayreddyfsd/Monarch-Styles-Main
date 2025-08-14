@@ -1,0 +1,10 @@
+why new redux based categories slice or module?
+
+earlier, we were getting data and then calling the action-creator function
+passing that data to it, 
+and dispatching the whole thing to reducer
+
+now we wanna do things differently
+we can to get the data also, inside the action creator
+also, we wanna handle this a bit professionally by updating the user at every stage
+like, fetch start, fetch success, fetch failed, so on .....
