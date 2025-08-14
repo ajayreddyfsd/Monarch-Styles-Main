@@ -38,7 +38,7 @@ const PaymentForm = () => {
     //! using this, we make the actual payment in next step
     //? mention the correct path to the payment intent file
     const response = await fetch(
-      "./../../../netlify/functions/create-payment-intent",
+      "/.netlify/functions/create-payment-intent",
       {
         method: "post",
         headers: {
